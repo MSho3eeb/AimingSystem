@@ -1,0 +1,5 @@
+<launch>
+    <node name="cameradetect" pkg="themainone" type="cameradetection.py" />
+    <node name="camerashow" pkg="themainone" type="camerashow.py" output="screen" />
+    <node name="servocontrol" pkg="themainone" type="controlServo.py" />
+</launch>
